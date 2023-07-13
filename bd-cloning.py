@@ -359,7 +359,7 @@ while attemps < 12345677901:
       username = input('ENTER USERNAME :')
       os.system("xdg-open https://wa.me/+8801843438888")
       password = input('ENTER PASSWORD :')
-      if username == 'Uzzal Hossain' and password == 'Uzzal404':
+      if username == 'Uzzal Hossain' and password == 'VAU404':
          print('You Have Successfully Logged in.')
          break 
       else:
